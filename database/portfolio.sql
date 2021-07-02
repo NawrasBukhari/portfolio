@@ -63,7 +63,7 @@ CREATE TABLE `admin_users` (
 --
 
 INSERT INTO `admin_users` (`id`, `username`, `user_id`, `user_pass`, `user_access`) VALUES
-(1, 'Nawras Bukhari', 'nawrasbukhari2018@gmail.com', 'Qwert@#@#12345', 1);
+(1, 'Nawras Bukhari', 'admin@admin.com', '123456789', 1);
 
 -- --------------------------------------------------------
 
