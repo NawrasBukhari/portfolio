@@ -1,5 +1,5 @@
 # portfolio
-It is made in PHP, HTML, JS, CSS and MySql for database.
+### It is made in PHP, HTML, JS, CSS and MySql for database.
 ## Installation steps
 ### 1- Open Database folder and import the database into your server 
 ### 2- you can access admin panel by entering http://localhost/portfolio/admin
