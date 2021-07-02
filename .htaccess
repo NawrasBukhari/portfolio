@@ -1,9 +1,9 @@
-ErrorDocument 404 http://localhost/porto/404.php
+ErrorDocument 404 http://localhost/portfolio/404.php
 
 RewriteEngine On
 RewriteBase /
 
 RewriteCond %{REQUEST_URI} ^/404/$
-RewriteRule ^(.*)$ http://localhost/porto/404.php [L]
-RewriteRule ^index$ http://localhost/porto/index.php [END]
+RewriteRule ^(.*)$ http://localhost/portfolio/404.php [L]
+RewriteRule ^index$ http://localhost/portfolio/index.php [END]
 
