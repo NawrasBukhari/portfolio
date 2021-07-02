@@ -1,0 +1,43 @@
+/* css */
+
+ b {
+   animation-duration: 800ms;
+   animation-name: blink;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+@keyframes blink {
+   from {
+      opacity: 1;
+   }
+   to {
+      opacity: 0;
+   }
+ }
+ 
+ /*!
+ * Dark Mode Switch v1.0.1 (https://github.com/coliff/dark-mode-switch)
+ * Copyright 2021 C.Oliff
+ * Licensed under MIT (https://github.com/coliff/dark-mode-switch/blob/main/LICENSE)
+ */
+
+[data-theme="dark"] {
+  background-color: #040b14 !important;
+  color: #727cf5;
+}
+
+[data-theme="dark"] .bg-black {
+  background-color: #040b14 !important;
+}
+
+[data-theme="dark"] .bg-dark {
+  background-color: #040b14 !important;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: #fff !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: #fff !important;
+}

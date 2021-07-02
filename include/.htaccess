@@ -1,0 +1,10 @@
+AuthType Basic
+AuthName "Restricted Area Go away!"
+AuthUserFile "C:/xampp/htdocs/porto/include/.htpasswd"
+require valid-user
+<Files db.php>
+AuthName "Go awaaaaaaaaaay! XD"
+AuthType Basic
+AuthUserFile "C:/xampp/htdocs/porto/include/.htpasswd"
+Require valid-user
+</Files>
