@@ -9,5 +9,11 @@ It is made in PHP, HTML, JS, CSS and MySql for database.
 ### Edit the .htaccess links by changing them to your folder name (Directory Name)
 ### For example http://localhost/YOUR-FOLDER-NAME/index.php
 ### For example http://localhost/YOUR-FOLDER-NAME/404.php
-# You are free to change deleter what ever you want but what important to change the name 
+## going to admin panel by http://localhost/YOUR-FOLDER-NAME/admin
+### Then it will ask you for a username and password for accessing the login page of admin panel
+### Login: nawras 
+### password: Qwert@#@#12345
+## Why prompt login for admin panel?
+### becuase I wanted to add multiple layers of security
+## You are free to change deleter what ever you want but what important to change the name 
  
