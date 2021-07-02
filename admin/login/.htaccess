@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Restricted Area Go away!"
-AuthUserFile "C:/xampp/htdocs/porto/admin/login/.htpasswd"
-require valid-user
